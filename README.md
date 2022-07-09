@@ -20,16 +20,16 @@ npm i
 ```
 
 Enable Git hooks
+
 ```bash
 npx husky install
 ```
 
 add this line to package.json
+
 ```json
 "prepare": "husky install && husky add .husky/pre-commit 'npx lint-staged' && git add .husky/pre-commit"
 ```
-
-
 
 ## Usage
 
